@@ -1,0 +1,15 @@
+item {
+    name: "dishwasher",
+    id: 1,
+    display_name: "dishwasher"
+}
+item {
+    name: "microwave",
+    id: 2,
+    display_name: "microwave"
+}
+item {
+    name: "refrigerator",
+    id: 3,
+    display_name: "refrigerator"
+}

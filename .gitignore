@@ -1,0 +1,51 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python caches / build
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+*.whl
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Logs / temp
+*.log
+*.tmp
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+tf_env/
+
+# Outputs / artifacts
+outputs/
+
+# Datasets (downloaded from Roboflow)
+datasets/**/train.tfrecord
+datasets/**/valid.tfrecord
+datasets/**/test.tfrecord
+datasets/**/*.tfrecord
+
+# Model checkpoints / exports
+models/**/checkpoint
+models/**/ckpt-*.index
+models/**/ckpt-*.data-*
+models/**/saved_model/
+models/**/variables.index
+models/**/variables.data-*
+models/**/events.out.tfevents.*
